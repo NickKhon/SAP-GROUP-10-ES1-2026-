@@ -3,10 +3,7 @@ print("========== WELCOME TO LEVEL UP 2050 ==========")
 import json
 import os
 
-#locates the file where this Python code is located
-folder = os.path.dirname(os.path.abspath(__file__))
-#creates a JSON file under the name of "fitnessdata.json"
-filename = os.path.join(folder, "fitnessdata.json")
+filename = "fitnessdata.json"
 
 #This if-else condition is used to determine if progress exists or not
 if os.path.exists(filename):
